@@ -2,7 +2,7 @@ import { createStackNavigator } from "react-navigation-stack";
 
 
 import { Trainings1Container } from './trainings1/trainings1.container';
-import { Trainings2Container } from './trainings2/trainings2.container';
+import  Trainings2Container  from './trainings2/trainings2.container';
 
 import Home from "./";
 

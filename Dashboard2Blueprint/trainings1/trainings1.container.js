@@ -5,7 +5,7 @@ import {exercises1} from '../data/exercise';
 
 export class Trainings1Container extends React.Component {
   static navigationOptions = {
-    title: 'Trainings 1'.toUpperCase(),
+    title: 'Dashboard 1'.toUpperCase(),
   };
 
   state = {

@@ -5,9 +5,9 @@
 ##
 
 # Define file paths
-PYTHON_PIPFILE_PATH="$BASE_PATH/Pipfile"
-PYTHON_SETTINGS_PATH="$BASE_PATH/$APP_NAME/settings.py"
-PYTHON_URLS_PATH="$BASE_PATH/$APP_NAME/urls.py"
+PYTHON_PIPFILE_PATH="$BASE_PATH/backend/Pipfile"
+PYTHON_SETTINGS_PATH="$BASE_PATH/$APP_NAME/backend/settings.py"
+PYTHON_URLS_PATH="$BASE_PATH/$APP_NAME/backend/urls.py"
 
 ##
 # Add a package to the Pipfile
