@@ -6,7 +6,7 @@
 
 # Define file paths
 PYTHON_PIPFILE_PATH="$BASE_PATH/backend/Pipfile"
-PYTHON_SETTINGS_PATH="$BASE_PATH/$APP_NAME/backend/settings.py"
+PYTHON_SETTINGS_PATH="$BASE_PATH/backend/$APP_NAME/settings.py"
 PYTHON_URLS_PATH="$BASE_PATH/$APP_NAME/backend/urls.py"
 
 ##
