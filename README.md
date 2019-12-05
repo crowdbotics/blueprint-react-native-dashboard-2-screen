@@ -1,6 +1,6 @@
 # Blueprint Template
 
-This is a Leader Board Blueprint.
+This is a Dashboard Blueprint.
 
 Screens:
 - Dash Board
