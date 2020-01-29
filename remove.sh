@@ -38,8 +38,8 @@ sed -i "/${DATA_3}/d" $BASE_PATH/src/navigator/mainNavigator.js
 BE_BLUEPRINT="dashboard"
 DATA_4="path('api/v1/', include('${dashboard}.api.v1.urls')),"
 
-echo "copy BE for Blueprint"
-cp -r ./backend/$BE_BLUEPRINT/. $BASE_PATH/backend/$BE_BLUEPRINT
+echo "remove BE for Blueprint"
+rm -Rf $BASE_PATH/backend/$BE_BLUEPRINT
 
 echo ">> remove 4"
 sed -i "/${DATA_4}/d" $PYTHON_URLS_PATH
