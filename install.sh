@@ -72,7 +72,7 @@ sed -i "s/${EXT_POINT_6}/&\n${DATA_6}/g" $BASE_PATH/src/redux/mainReducer.js
 
 EXT_POINT_7="@BlueprintReduxImportInsertion"
 EXT_POINT_8="@BlueprintReduxCombineInsertion"
-DATA_7="import ${BLUEPRINT}Saga from '..\/features\/Dashboard1Blueprint\/redux\/sagas'"
+DATA_7="import ${BLUEPRINT}Saga from '..\/features\/${BLUEPRINT}\/redux\/sagas'"
 DATA_8="${BLUEPRINT}Saga,"
 
 echo ">> insert 7"
