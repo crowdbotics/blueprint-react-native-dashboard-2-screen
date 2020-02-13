@@ -6,7 +6,7 @@ import  Trainings2Container  from './trainings2/trainings2.container';
 
 import Home from "./";
 
-export const Dashboard2BlueprintNavigator = createStackNavigator(
+export default Dashboard2BlueprintNavigator = createStackNavigator(
   {
     Home: { screen: Home },
     Trainings1: { screen: Trainings1Container },
