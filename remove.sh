@@ -55,7 +55,7 @@ echo ">> remove 4"
 sed -i "/${DATA_4}/d" $PYTHON_URLS_PATH
 sed -i "/${BE_BLUEPRINT}/d" $PYTHON_URLS_PATH
 
-DATA_5="import { ${BLUEPRINT}Reducer } from '..\/features\/${BLUEPRINT}\/redux\/reducers'"
+DATA_5="import ${BLUEPRINT}Reducer from '..\/features\/${BLUEPRINT}\/redux\/reducers'"
 DATA_6="${BLUEPRINT}: ${BLUEPRINT}Reducer,"
 
 echo ">> remove 5"

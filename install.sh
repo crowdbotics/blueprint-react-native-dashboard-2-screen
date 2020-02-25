@@ -71,7 +71,7 @@ fi
 
 EXT_POINT_5="@BlueprintReduxImportInsertion"
 EXT_POINT_6="@BlueprintReduxCombineInsertion"
-DATA_5="import { ${BLUEPRINT}Reducer } from '..\/features\/${BLUEPRINT}\/redux\/reducers'"
+DATA_5="import ${BLUEPRINT}Reducer from '..\/features\/${BLUEPRINT}\/redux\/reducers'"
 DATA_6="${BLUEPRINT}: ${BLUEPRINT}Reducer,"
 
 echo ">> insert 5"
